@@ -33,7 +33,7 @@ public class App
         //update truck data
         truck.setDriver_name("ramesh");
         truckService.updateTruck(truck);
-        System.out.println("updated truck dta  : " + truckService.getTruckById(1));
+        System.out.println("updated truck data  : " + truckService.getTruckById(1));
 
         //get all truck data
         List<Truck>allTrucks = truckService.getAllTrucks();
@@ -46,6 +46,8 @@ public class App
         //delete Truck data
         truckService.deleteTruck(2);
         System.out.println("data deleted by Id : " + 2);
+
+        // fetching all data
         allTrucks = truckService.getAllTrucks();
         System.out.println("all trucks after all operations : ");
         System.out.println(allTrucks);

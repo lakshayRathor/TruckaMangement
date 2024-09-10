@@ -52,7 +52,7 @@ public class TruckService {
 
     public void updateTruck(Truck truck)
     {
-        String sql = "update trucks set name = ?,model = ?, capacity = ?, driver_name = ?,where id = ?";
+        String sql = "update trucks set name = ?,model = ?, capacity = ?, driver_name = ? where id = ?";
         try
         {
             Connection connection = ConnectionDetails.getConnection();
