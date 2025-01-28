@@ -1,7 +1,6 @@
 package org.example;
 
-import javax.xml.namespace.QName;
-import java.security.spec.ECField;
+
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;

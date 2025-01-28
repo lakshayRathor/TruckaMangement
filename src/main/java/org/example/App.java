@@ -6,10 +6,7 @@ import java.sql.Statement;
 import java.util.List;
 
 
-/**
- * Hello world!
- *
- */
+
 public class App 
 {
 
